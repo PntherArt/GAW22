@@ -5,30 +5,23 @@ using UnityEngine.UI;
 
 public class paperw5pickup : MonoBehaviour
 {
+    //Controls the input for the page on the desk
     public GameObject scr;
-    //bool isTriggered = false;
 
-    private void Start()
-    {
-        
-    }
-
+    //Turns on the pages canvas
     public void OnMouseOver()
     {
-        
         if (Input.GetMouseButtonDown(0))
         {
-            //print("working");
             scr.SetActive(true);
         }
-
     }
 
+    //Turns off the pages canvas
     private void Update()
     {
         if (Input.GetMouseButtonDown(1))
         {
-            
             scr.SetActive(false);
         }
     }

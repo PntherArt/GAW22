@@ -609,7 +609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a2acc5ca0f650e49917540b570e0fe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: MainGame
+  anim: {fileID: 0}
+  trigName: 
   canvas:
   - {fileID: 1902730090}
   - {fileID: 1535838389}

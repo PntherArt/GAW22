@@ -5,21 +5,18 @@ using TMPro;
 
 public class ClickOnScpt : MonoBehaviour
 {
+    //This handles all of the timings of the canvas changes and inputs
     public GameObject trigBlock;
     public GameObject[] clickCanvas;
     public GameObject camObj;
-
     public GameObject[] PCscrImg;
     public GameObject gameMan;
     int currentIndex = 0;
-
     public AudioSource emailSnd;
     public AudioClip[] sndClick;
     public AudioSource randmSnd;
     public AudioSource phoneSnd;
-
     public GameObject[] phoneCalloBj;
-
     public Animator anim;
     public string trigName;
     public GameObject animCanv;
@@ -54,7 +51,7 @@ public class ClickOnScpt : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
         }
 
-        if(gameMan.GetComponent<TimerScr>().timeTaken >= 40 && gameMan.GetComponent<TimerScr>().timeTaken <= 42)
+        if(gameMan.GetComponent<GameManager>().timeTaken >= 40 && gameMan.GetComponent<GameManager>().timeTaken <= 42)
         {
            
             PCscrImg[0].SetActive(false);
@@ -64,14 +61,14 @@ public class ClickOnScpt : MonoBehaviour
             
         }
 
-        if (gameMan.GetComponent<TimerScr>().timeTaken >= 70 && gameMan.GetComponent<TimerScr>().timeTaken <= 72)
+        if (gameMan.GetComponent<GameManager>().timeTaken >= 70 && gameMan.GetComponent<GameManager>().timeTaken <= 72)
         {
             currentIndex = 7;
             emailSnd.Play();
 
         }
 
-        if (gameMan.GetComponent<TimerScr>().timeTaken >= 100 && gameMan.GetComponent<TimerScr>().timeTaken <= 102)
+        if (gameMan.GetComponent<GameManager>().timeTaken >= 100 && gameMan.GetComponent<GameManager>().timeTaken <= 102)
         {
 
             currentIndex = 8;
@@ -79,7 +76,7 @@ public class ClickOnScpt : MonoBehaviour
 
         }
 
-        if (gameMan.GetComponent<TimerScr>().timeTaken >= 115 && gameMan.GetComponent<TimerScr>().timeTaken <= 117)
+        if (gameMan.GetComponent<GameManager>().timeTaken >= 115 && gameMan.GetComponent<GameManager>().timeTaken <= 117)
         {
 
             currentIndex = 4;
@@ -89,7 +86,7 @@ public class ClickOnScpt : MonoBehaviour
 
         }
 
-        if (gameMan.GetComponent<TimerScr>().timeTaken >= 140 && gameMan.GetComponent<TimerScr>().timeTaken <= 142)
+        if (gameMan.GetComponent<GameManager>().timeTaken >= 140 && gameMan.GetComponent<GameManager>().timeTaken <= 142)
         {
 
             currentIndex = 9;
@@ -99,7 +96,7 @@ public class ClickOnScpt : MonoBehaviour
 
         }
 
-        if (gameMan.GetComponent<TimerScr>().timeTaken >= 170 && gameMan.GetComponent<TimerScr>().timeTaken <= 172)
+        if (gameMan.GetComponent<GameManager>().timeTaken >= 170 && gameMan.GetComponent<GameManager>().timeTaken <= 172)
         {
 
             currentIndex = 4;
@@ -109,7 +106,7 @@ public class ClickOnScpt : MonoBehaviour
 
         }
 
-        if (gameMan.GetComponent<TimerScr>().timeTaken >= 200 && gameMan.GetComponent<TimerScr>().timeTaken <= 202)
+        if (gameMan.GetComponent<GameManager>().timeTaken >= 200 && gameMan.GetComponent<GameManager>().timeTaken <= 202)
         {
 
             currentIndex = 10;
@@ -119,7 +116,7 @@ public class ClickOnScpt : MonoBehaviour
 
         }
 
-        if (gameMan.GetComponent<TimerScr>().timeTaken >= 215 && gameMan.GetComponent<TimerScr>().timeTaken <= 217)
+        if (gameMan.GetComponent<GameManager>().timeTaken >= 215 && gameMan.GetComponent<GameManager>().timeTaken <= 217)
         {
 
             currentIndex = 11;
@@ -127,7 +124,7 @@ public class ClickOnScpt : MonoBehaviour
 
         }
 
-        if (gameMan.GetComponent<TimerScr>().timeTaken >= 240 && gameMan.GetComponent<TimerScr>().timeTaken <= 242)
+        if (gameMan.GetComponent<GameManager>().timeTaken >= 240 && gameMan.GetComponent<GameManager>().timeTaken <= 242)
         {
 
             currentIndex = 4;
@@ -137,7 +134,7 @@ public class ClickOnScpt : MonoBehaviour
 
         }
 
-        if (gameMan.GetComponent<TimerScr>().timeTaken >= 270 && gameMan.GetComponent<TimerScr>().timeTaken <= 272)
+        if (gameMan.GetComponent<GameManager>().timeTaken >= 270 && gameMan.GetComponent<GameManager>().timeTaken <= 272)
         {
 
             currentIndex = 13;
@@ -147,7 +144,7 @@ public class ClickOnScpt : MonoBehaviour
 
         }
 
-        if (gameMan.GetComponent<TimerScr>().timeTaken >= 280 && gameMan.GetComponent<TimerScr>().timeTaken <= 282)
+        if (gameMan.GetComponent<GameManager>().timeTaken >= 280 && gameMan.GetComponent<GameManager>().timeTaken <= 282)
         {
             phoneSnd.Stop();
             currentIndex = 12;
@@ -158,7 +155,7 @@ public class ClickOnScpt : MonoBehaviour
 
         }
 
-        if (gameMan.GetComponent<TimerScr>().timeTaken >= 310 && gameMan.GetComponent<TimerScr>().timeTaken <= 312)
+        if (gameMan.GetComponent<GameManager>().timeTaken >= 310 && gameMan.GetComponent<GameManager>().timeTaken <= 312)
         {
 
             currentIndex = 2;
@@ -169,7 +166,7 @@ public class ClickOnScpt : MonoBehaviour
 
         }
 
-        if (gameMan.GetComponent<TimerScr>().timeTaken >= 340 && gameMan.GetComponent<TimerScr>().timeTaken <= 342)
+        if (gameMan.GetComponent<GameManager>().timeTaken >= 340 && gameMan.GetComponent<GameManager>().timeTaken <= 342)
         {
 
             currentIndex = 3;
@@ -180,7 +177,7 @@ public class ClickOnScpt : MonoBehaviour
 
         }
 
-        if (gameMan.GetComponent<TimerScr>().timeTaken >= 370 && gameMan.GetComponent<TimerScr>().timeTaken <= 372)
+        if (gameMan.GetComponent<GameManager>().timeTaken >= 370 && gameMan.GetComponent<GameManager>().timeTaken <= 372)
         {
 
             animCanv.SetActive(true);

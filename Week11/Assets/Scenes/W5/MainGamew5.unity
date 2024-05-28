@@ -5346,8 +5346,6 @@ GameObject:
   - component: {fileID: 1660162201}
   - component: {fileID: 1660162202}
   - component: {fileID: 1660162203}
-  - component: {fileID: 1660162204}
-  - component: {fileID: 1660162205}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5382,6 +5380,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 500124908}
+  clockDis: {fileID: 2068082723}
+  hour: 0
+  minutes: 0
+  initalTime: 0
+  timeTaken: 0
+  timeDisplay: {fileID: 611313205}
 --- !u!82 &1660162203
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5478,36 +5482,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1660162204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1660162200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f39aa171262062149966276e1b72e2be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clockDis: {fileID: 2068082723}
-  hour: 0
-  minutes: 0
---- !u!114 &1660162205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1660162200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f14e04ab450dad4f92d80a56dbd5e80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initalTime: 0
-  timeTaken: 0
-  timeDisplay: {fileID: 611313205}
 --- !u!1 &1698001456
 GameObject:
   m_ObjectHideFlags: 0
