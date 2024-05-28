@@ -8890,7 +8890,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1311618994}
   - component: {fileID: 1311618993}
-  - component: {fileID: 1311618992}
   m_Layer: 0
   m_Name: Game Management
   m_TagString: Untagged
@@ -8898,26 +8897,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1311618992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1311618991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6aa1f63922592274fa1ef8a89ebab165, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
-  timer_timeLeft: 0
-  timeCurrent: 0
-  timerDisplay: {fileID: 1308885970}
-  clockScr: {fileID: 1533020837}
-  badScr: {fileID: 1536193772}
-  succScr: {fileID: 982367451}
-  failSnd: {fileID: 1536193777}
 --- !u!114 &1311618993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8934,6 +8913,14 @@ MonoBehaviour:
   countdownDisplay: {fileID: 28957412}
   cdSnd: {fileID: 1533020842}
   instrCanv: {fileID: 838841825}
+  timer: 10
+  timeLeft: 0
+  timeCurrent: 10
+  timerDisplay: {fileID: 1308885970}
+  clockScr: {fileID: 1533020837}
+  badScr: {fileID: 1536193772}
+  succScr: {fileID: 982367451}
+  failSnd: {fileID: 1536193777}
 --- !u!4 &1311618994
 Transform:
   m_ObjectHideFlags: 0

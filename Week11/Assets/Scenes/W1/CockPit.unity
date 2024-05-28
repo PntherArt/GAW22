@@ -738,7 +738,6 @@ GameObject:
   m_Component:
   - component: {fileID: 656465794}
   - component: {fileID: 656465793}
-  - component: {fileID: 656465792}
   m_Layer: 0
   m_Name: Game Management
   m_TagString: Untagged
@@ -746,26 +745,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &656465792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 656465791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6aa1f63922592274fa1ef8a89ebab165, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
-  timer_timeLeft: 0
-  timeCurrent: 0
-  timerDisplay: {fileID: 1039643564}
-  clockScr: {fileID: 2024295452}
-  badScr: {fileID: 1947878920}
-  succScr: {fileID: 1448291456}
-  failSnd: {fileID: 1947878925}
 --- !u!114 &656465793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -782,6 +761,14 @@ MonoBehaviour:
   countdownDisplay: {fileID: 380078547}
   cdSnd: {fileID: 2024295457}
   instrCanv: {fileID: 1294971930}
+  timer: 10
+  timeLeft: 0
+  timeCurrent: 10
+  timerDisplay: {fileID: 1039643564}
+  clockScr: {fileID: 2024295452}
+  badScr: {fileID: 1947878920}
+  succScr: {fileID: 1448291456}
+  failSnd: {fileID: 1947878925}
 --- !u!4 &656465794
 Transform:
   m_ObjectHideFlags: 0
@@ -806,7 +793,6 @@ GameObject:
   m_Component:
   - component: {fileID: 722720946}
   - component: {fileID: 722720947}
-  - component: {fileID: 722720948}
   m_Layer: 5
   m_Name: Hold Bar
   m_TagString: Untagged
@@ -885,21 +871,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &722720948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 722720945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7079f640e7458bc419af40898059a478, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slids: {fileID: 0}
-  targetProgress: 0
-  fillSpeed: 0.15
 --- !u!1 &746979739
 GameObject:
   m_ObjectHideFlags: 0
@@ -4949,10 +4920,12 @@ MonoBehaviour:
   animBtn: {fileID: 6821887587467508805}
   triggerName: Hold!
   engUI: {fileID: 518371915}
-  holdBar: {fileID: 722720945}
   clockScr: {fileID: 2024295452}
   badScr: {fileID: 1947878920}
   failSnd: {fileID: 1947878925}
+  slids: {fileID: 722720947}
+  targetProgress: 0
+  fillSpeed: 0.15
 --- !u!65 &6821887587467508807
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -5,12 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class animloadmenu : MonoBehaviour
 {
+
     public string level;
-    // Start is called before the first frame update
-    public void Start()
-    {
-        
-    }
 
     public void LoadGame()
     {

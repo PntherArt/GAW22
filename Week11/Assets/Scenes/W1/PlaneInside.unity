@@ -608,7 +608,7 @@ GameObject:
   - component: {fileID: 31812575}
   - component: {fileID: 31812576}
   m_Layer: 0
-  m_Name: Fucko_2 (10)
+  m_Name: Friends_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -821,7 +821,7 @@ GameObject:
   - component: {fileID: 44104870}
   - component: {fileID: 44104871}
   m_Layer: 0
-  m_Name: Fucko_2 (5)
+  m_Name: Friends_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4329,7 +4329,7 @@ RectTransform:
   - {fileID: 1685889388}
   - {fileID: 1801230438}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4524,7 +4524,7 @@ GameObject:
   - component: {fileID: 371636829}
   - component: {fileID: 371636830}
   m_Layer: 0
-  m_Name: Fucko_2 (12)
+  m_Name: Friends_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4734,7 +4734,7 @@ Transform:
   - {fileID: 2054500070}
   - {fileID: 1383345362}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 10.888, y: 180, z: 0}
 --- !u!136 &374014281
 CapsuleCollider:
@@ -7347,7 +7347,7 @@ GameObject:
   - component: {fileID: 517066170}
   - component: {fileID: 517066171}
   m_Layer: 0
-  m_Name: Fucko_2 (7)
+  m_Name: Friends_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8260,7 +8260,7 @@ Transform:
   - {fileID: 2120245445}
   - {fileID: 877822537}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 10.888, y: 180, z: 0}
 --- !u!1 &592013636
 GameObject:
@@ -8918,7 +8918,7 @@ Transform:
   - {fileID: 1517046861}
   - {fileID: 1077769416}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 10.888, y: 180, z: 0}
 --- !u!1 &650206763
 GameObject:
@@ -9580,7 +9580,7 @@ GameObject:
   - component: {fileID: 673102538}
   - component: {fileID: 673102539}
   m_Layer: 0
-  m_Name: Fucko_2 (16)
+  m_Name: Friends_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9927,7 +9927,7 @@ GameObject:
   - component: {fileID: 685887700}
   - component: {fileID: 685887701}
   m_Layer: 0
-  m_Name: Fucko_2 (20)
+  m_Name: Friends_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10139,7 +10139,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &691225452
 GameObject:
@@ -10784,7 +10784,7 @@ GameObject:
   - component: {fileID: 724682237}
   - component: {fileID: 724682238}
   m_Layer: 0
-  m_Name: Fucko_2
+  m_Name: Friends_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10881,7 +10881,7 @@ Transform:
   - {fileID: 863496227}
   - {fileID: 1729718025}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 10.888, y: 180, z: 0}
 --- !u!1 &733288420
 GameObject:
@@ -10975,7 +10975,7 @@ GameObject:
   - component: {fileID: 741916557}
   - component: {fileID: 741916558}
   m_Layer: 0
-  m_Name: Fucko_2 (1)
+  m_Name: Friends_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14422,7 +14422,7 @@ GameObject:
   - component: {fileID: 1035594778}
   - component: {fileID: 1035594779}
   m_Layer: 0
-  m_Name: Fucko_2 (9)
+  m_Name: Friends_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14473,7 +14473,7 @@ GameObject:
   - component: {fileID: 1035630803}
   - component: {fileID: 1035630804}
   m_Layer: 0
-  m_Name: Fucko_2 (3)
+  m_Name: Friends_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15253,7 +15253,7 @@ RectTransform:
   - {fileID: 1084437017}
   - {fileID: 1415593502}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -15560,7 +15560,7 @@ GameObject:
   - component: {fileID: 1137932393}
   - component: {fileID: 1137932394}
   m_Layer: 0
-  m_Name: Fucko_2 (11)
+  m_Name: Friends_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16558,7 +16558,7 @@ GameObject:
   - component: {fileID: 1202529544}
   - component: {fileID: 1202529545}
   m_Layer: 0
-  m_Name: Fucko_2 (14)
+  m_Name: Friends_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16609,7 +16609,7 @@ GameObject:
   - component: {fileID: 1203902727}
   - component: {fileID: 1203902728}
   m_Layer: 0
-  m_Name: Fucko_2 (17)
+  m_Name: Friends_18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17743,7 +17743,7 @@ GameObject:
   - component: {fileID: 1315913345}
   - component: {fileID: 1315913346}
   m_Layer: 0
-  m_Name: Fucko_2 (4)
+  m_Name: Friends_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18484,7 +18484,7 @@ GameObject:
   - component: {fileID: 1354845400}
   - component: {fileID: 1354845401}
   m_Layer: 0
-  m_Name: Fucko_2 (23)
+  m_Name: Friends_24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18981,7 +18981,7 @@ GameObject:
   - component: {fileID: 1395705224}
   - component: {fileID: 1395705225}
   m_Layer: 0
-  m_Name: Fucko_2 (19)
+  m_Name: Friends_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19183,7 +19183,7 @@ GameObject:
   - component: {fileID: 1413544728}
   - component: {fileID: 1413544729}
   m_Layer: 0
-  m_Name: Fucko_2 (6)
+  m_Name: Friends_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20307,7 +20307,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1493275995}
   - component: {fileID: 1493275993}
-  - component: {fileID: 1493275992}
   - component: {fileID: 1493275994}
   - component: {fileID: 1493275996}
   m_Layer: 0
@@ -20317,26 +20316,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1493275992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493275991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6aa1f63922592274fa1ef8a89ebab165, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
-  timer_timeLeft: 0
-  timeCurrent: 0
-  timerDisplay: {fileID: 1675338084}
-  clockScr: {fileID: 2061941196}
-  badScr: {fileID: 1092147229}
-  succScr: {fileID: 333822711}
-  failSnd: {fileID: 1092147234}
 --- !u!114 &1493275993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20353,6 +20332,14 @@ MonoBehaviour:
   countdownDisplay: {fileID: 1735662832}
   cdSnd: {fileID: 2061941201}
   instrCanv: {fileID: 544807077}
+  timer: 10
+  timeLeft: 0
+  timeCurrent: 10
+  timerDisplay: {fileID: 1675338084}
+  clockScr: {fileID: 2061941196}
+  badScr: {fileID: 1092147229}
+  succScr: {fileID: 333822711}
+  failSnd: {fileID: 1092147234}
 --- !u!114 &1493275994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20394,7 +20381,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1493275996
 AudioSource:
@@ -21591,7 +21578,7 @@ GameObject:
   - component: {fileID: 1546347216}
   - component: {fileID: 1546347217}
   m_Layer: 0
-  m_Name: Fucko_2 (13)
+  m_Name: Friends_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23451,7 +23438,7 @@ GameObject:
   - component: {fileID: 1655181399}
   - component: {fileID: 1655181398}
   m_Layer: 0
-  m_Name: FuckGang
+  m_Name: FriendGang
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23648,7 +23635,7 @@ Transform:
   - {fileID: 941583273}
   - {fileID: 1873900075}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 10.888, y: 180, z: 0}
 --- !u!1 &1667076352
 GameObject:
@@ -25053,7 +25040,7 @@ GameObject:
   - component: {fileID: 1722324471}
   - component: {fileID: 1722324472}
   m_Layer: 0
-  m_Name: Fucko_2 (22)
+  m_Name: Friends_23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25224,7 +25211,7 @@ GameObject:
   - component: {fileID: 1728610502}
   - component: {fileID: 1728610503}
   m_Layer: 0
-  m_Name: Fucko_2 (21)
+  m_Name: Friends_22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27073,7 +27060,7 @@ Transform:
   - {fileID: 1331946093}
   - {fileID: 674484706}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 10.888, y: 180, z: 0}
 --- !u!1 &1861342060
 GameObject:
@@ -27167,7 +27154,7 @@ GameObject:
   - component: {fileID: 1865314725}
   - component: {fileID: 1865314726}
   m_Layer: 0
-  m_Name: Fucko_2 (15)
+  m_Name: Friends_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27249,7 +27236,7 @@ GameObject:
   - component: {fileID: 1869110876}
   - component: {fileID: 1869110877}
   m_Layer: 0
-  m_Name: Fucko_2 (8)
+  m_Name: Friends_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27887,7 +27874,7 @@ GameObject:
   - component: {fileID: 1926967747}
   - component: {fileID: 1926967748}
   m_Layer: 0
-  m_Name: Fucko_2 (2)
+  m_Name: Friends_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29302,7 +29289,7 @@ GameObject:
   - component: {fileID: 2058187297}
   - component: {fileID: 2058187298}
   m_Layer: 0
-  m_Name: Fucko_2 (18)
+  m_Name: Friends_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60307,7 +60294,7 @@ Transform:
   - {fileID: 7564899585095020559}
   - {fileID: 4729227336523201764}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 10.888, y: 180, z: 0}
 --- !u!1 &6844455670162506833
 GameObject:
@@ -61312,7 +61299,7 @@ Transform:
   - {fileID: 6338024680772696212}
   - {fileID: 9128608422949024895}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &7056517179112347231
 GameObject:
@@ -69163,7 +69150,7 @@ Transform:
   - {fileID: 3627961914243298271}
   - {fileID: 721231758852776264}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &8914928258000927496
 MeshRenderer:

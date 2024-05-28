@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MainGamew9.unity
+- path: Assets/Scenes/W1/Runway.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
