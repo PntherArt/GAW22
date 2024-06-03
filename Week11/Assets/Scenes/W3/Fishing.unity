@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 2.5
+  m_AmbientIntensity: 0.38
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.13296545, g: 0.19145328, b: 0.33962262, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 26e549001fb914b449b93b4912336a9e, type: 2}
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.0544552, g: 0.044861138, b: 0.041477762, a: 1}
+  m_IndirectSpecularColor: {r: 0.99121004, g: 0.99121004, b: 0.99121004, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8346,14 +8346,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd1c292c331c91a4ba29722b0564feee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraObj:
-  - {fileID: 1687258581}
-  - {fileID: 362272734}
-  titleObj:
-  - {fileID: 761313426}
-  - {fileID: 1999797855}
-  anim: {fileID: 1687258587}
-  trigName: Switch
+  cameraObj: []
+  titleObj: []
+  anim: {fileID: 0}
+  trigName: 
 --- !u!4 &366432697
 Transform:
   m_ObjectHideFlags: 0
