@@ -487,9 +487,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 110863128}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3613d38534dbd9c42a8a120806d93b11, type: 3}
+  m_Script: {fileID: 11500000, guid: b2f321070e67e124c8c1590278d75c13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snd: {fileID: 0}
+  anim: {fileID: 0}
+  trigName: 
+  animCanv: []
   canv:
   - {fileID: 1891044903}
   items:
@@ -2552,6 +2556,8 @@ MonoBehaviour:
   trig:
   - {fileID: 1630367476}
   - {fileID: 110863128}
+  items: []
+  canv: []
 --- !u!1 &1353664201
 GameObject:
   m_ObjectHideFlags: 0
@@ -3216,7 +3222,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1459415504}
-  - component: {fileID: 1459415503}
+  - component: {fileID: 1459415502}
   m_Layer: 0
   m_Name: TriggersServ
   m_TagString: Untagged
@@ -3224,7 +3230,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1459415503
+--- !u!114 &1459415502
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3233,9 +3239,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1459415501}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f40b326ff0e31e44f8f3bb060e33cc42, type: 3}
+  m_Script: {fileID: 11500000, guid: 44a93950005b4d34a8d78b74351009af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serves: []
+  anim: []
+  btnToGo: {fileID: 0}
+  cav: []
+  btn: []
+  snd: {fileID: 0}
+  trig: []
   items:
   - {fileID: 379093357}
   - {fileID: 1314878503}
@@ -3545,9 +3558,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1630367476}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f40b326ff0e31e44f8f3bb060e33cc42, type: 3}
+  m_Script: {fileID: 11500000, guid: 44a93950005b4d34a8d78b74351009af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serves: []
+  anim: []
+  btnToGo: {fileID: 0}
+  cav: []
+  btn: []
+  snd: {fileID: 0}
+  trig: []
   items:
   - {fileID: 379093357}
   - {fileID: 1314878503}

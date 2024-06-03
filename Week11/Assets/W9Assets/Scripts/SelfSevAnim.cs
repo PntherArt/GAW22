@@ -5,40 +5,55 @@ using UnityEngine.SceneManagement;
 
 public class SelfSevAnim : MonoBehaviour
 {
-
+    //This script handles the self serve sequence in the game
+    [Header("Self Serve Animation")]
     public GameObject[] serves;
-
     public GameObject[] anim;
-
     public GameObject btnToGo;
     public GameObject[] cav;
-
     public GameObject[] btn;
-
     public AudioSource snd;
-
     public GameObject[] trig;
+
+    [Header("Supermarket Scene")]
+    public GameObject[] items;
+    public GameObject[] canv;
+    public static bool collected = false;
+    private bool isTrig = false;
 
     private void Update()
     {
+        //This triggers the item collection from the shelves
         if (cav[1].activeInHierarchy)
         {
             Invoke("GoIn", 1f);
         }
         
+        if (!items[0].activeInHierarchy && !items[1].activeInHierarchy && !items[2].activeInHierarchy && !items[3].activeInHierarchy && !items[4].activeInHierarchy)
+        {
+            collected = true;
+            isTrig = false;
+        }
+
+        if (collected == true && isTrig == false)
+        {
+            canv[0].SetActive(false);
+            canv[1].SetActive(true);
+            isTrig = true;
+        }
+
     }
 
+    //This triggers the self service canvas
     private void OnMouseOver()
     {
         if (Input.GetMouseButtonDown(0))
         {
-
             StartCoroutine(SelfServ());
-
         }
     }
 
-
+    //The animations for the self serve
     IEnumerator SelfServ()
     {
         anim[0].GetComponent<Animator>().SetTrigger("Tita");
@@ -65,6 +80,7 @@ public class SelfSevAnim : MonoBehaviour
 
     }
 
+    //Goes into the supermarket
     void GoIn()
     {
         btnToGo.SetActive(false);
@@ -72,13 +88,14 @@ public class SelfSevAnim : MonoBehaviour
         btn[1].SetActive(false);
     }
 
+    //Handles the game store sequence
     public void HelloGames()
     {
         cav[0].SetActive(false);
-        cav[1].SetActive(true);
-        
+        cav[1].SetActive(true);       
     }
 
+    //Inside the game store sequence
     public void InsideGames()
     {
         snd.Play();

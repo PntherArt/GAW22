@@ -3102,6 +3102,8 @@ MonoBehaviour:
   delay: 0.1
   fullText: I sent off the box today! It should hopefully come soon so look out for
     it. Hopefully it isn't too long!!
+  delay1: 0.1
+  fullText1: 
 --- !u!114 &1191422038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3543,11 +3545,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1409866668}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 671c45167636a184b980450898c0b491, type: 3}
+  m_Script: {fileID: 11500000, guid: fbf9a67d07e705a40878d8ceaa209180, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: I'll keep a look out for it! I'm sending off your box this week too!!
+  fullText: 
+  delay1: 0.1
+  fullText1: I'll keep a look out for it! I'm sending off your box this week too!!
 --- !u!114 &1409866671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5480,6 +5484,11 @@ MonoBehaviour:
   - {fileID: 1055428836}
   level: Supermarket
   snd: {fileID: 409245766}
+  button: []
+  canv: []
+  btn: {fileID: 0}
+  snd1: []
+  levelEnd: 
 --- !u!1 &1849588159
 GameObject:
   m_ObjectHideFlags: 0

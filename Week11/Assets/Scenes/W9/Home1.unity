@@ -1333,9 +1333,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 444561385}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9dffcbd2ba485740b011b855076c637, type: 3}
+  m_Script: {fileID: 11500000, guid: e226166109977f042989dd6bcf41be71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameCanv: []
+  supOut: []
+  level: 
+  snd: {fileID: 0}
   button:
   - {fileID: 984935082}
   - {fileID: 1694938659}
@@ -1346,10 +1350,10 @@ MonoBehaviour:
   - {fileID: 2133449699}
   - {fileID: 1700542719}
   btn: {fileID: 1810306352}
-  snd:
+  snd1:
   - {fileID: 390788778}
   - {fileID: 1440497343}
-  level: Ending
+  levelEnd: Ending
 --- !u!4 &444561387
 Transform:
   m_ObjectHideFlags: 0
@@ -2460,6 +2464,8 @@ MonoBehaviour:
   delay: 0.1
   fullText: I sent off the box today! It should hopefully come soon so look out for
     it. Hopefully it isn't too long!!
+  delay1: 0.1
+  fullText1: 
 --- !u!114 &964526558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2641,7 +2647,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 444561386}
-        m_TargetAssemblyTypeName: EndingSwitches, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
         m_MethodName: enter
         m_Mode: 1
         m_Arguments:
@@ -3967,7 +3973,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 444561386}
-        m_TargetAssemblyTypeName: EndingSwitches, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
         m_MethodName: home
         m_Mode: 1
         m_Arguments:
@@ -4209,7 +4215,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 444561386}
-        m_TargetAssemblyTypeName: EndingSwitches, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
         m_MethodName: end
         m_Mode: 1
         m_Arguments:
