@@ -5,41 +5,27 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public Animator anim;
-    public string trigName;
+    public GameObject canvasObj;
 
-    public GameObject[] canvas;
+    public string level;
 
     public void Start()
     {
-        anim.GetComponent<Animator>();
-    }
-
-    public void AnimStart()
-    {
-        canvas[0].SetActive(false);
-        canvas[1].SetActive(false);
-        canvas[2].SetActive(true);
         
-        anim.SetTrigger(trigName);
-    }
-    
-
-    public void InstrLoad()
-    {
-        canvas[0].SetActive(false);
-        canvas[1].SetActive(true);
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
-    public void BackBtn()
+    public void CanvasTrig()
     {
-        canvas[1].SetActive(false);
-        canvas[0].SetActive(true);
+        canvasObj.SetActive(true);
     }
 
-    public void QuitGame()
+    public void SceneChange()
     {
-        Application.Quit();
-        print("Quit!");
+        SceneManager.LoadScene(level);
     }
+
+
+
+
 }
