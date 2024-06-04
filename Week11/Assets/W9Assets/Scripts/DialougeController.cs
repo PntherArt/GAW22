@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class DialougeController : MonoBehaviour
+public class DialougeControllerW9 : MonoBehaviour
 {
     //This script handles all of the dialouge in the game.
     [Header("Dialouge Controls")]

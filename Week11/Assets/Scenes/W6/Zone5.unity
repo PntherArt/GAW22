@@ -123,58 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &204685075
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 204685077}
-  - component: {fileID: 204685076}
-  m_Layer: 0
-  m_Name: NoOverlap
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &204685076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 204685075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7354b907900da98458e4f8657ebb852c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemsToPickFrom:
-  - {fileID: 5970906765862848947, guid: 9d4abeac9b6d1924e8e816ead470be97, type: 3}
-  - {fileID: 3713070687295459146, guid: d2ba1183c8d46fd4bbc9e269bdf769ef, type: 3}
-  - {fileID: 2878886448371311410, guid: bb527820485eaeb40aec2b8b3c3db6d1, type: 3}
-  raycastDist: 300
-  overlapTestBoxSize: 5
-  spawnObjLayer:
-    serializedVersion: 2
-    m_Bits: 8
---- !u!4 &204685077
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 204685075}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 109.7, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &382492945
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,7 +187,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &626396194
 GameObject:
@@ -334,7 +282,7 @@ RectTransform:
   m_Children:
   - {fileID: 1069027479}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -538,6 +486,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 1
   fullText: I can't see..
+  delay1: 0.1
+  fullText1: 
 --- !u!1 &1120528811
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,7 +595,7 @@ Transform:
   m_LocalScale: {x: 900, y: 1, z: 900}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1265160384
 GameObject:
@@ -656,8 +606,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1265160386}
-  - component: {fileID: 1265160385}
   - component: {fileID: 1265160387}
+  - component: {fileID: 1265160385}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -674,9 +624,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1265160384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e4ad7fb2f452f543a166bd74e62cd5a, type: 3}
+  m_Script: {fileID: 11500000, guid: b6814704eda0c9e45817b5c46eaaa10e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemToSpread: {fileID: 1265160384}
+  itemXSpread: 420
+  itemYSpread: 0
+  itemZSpread: 420
+  numItemsToSpawn: 560
+  itemsToPickFrom:
+  - {fileID: 5970906765862848947, guid: 9d4abeac9b6d1924e8e816ead470be97, type: 3}
+  - {fileID: 3713070687295459146, guid: d2ba1183c8d46fd4bbc9e269bdf769ef, type: 3}
+  - {fileID: 2878886448371311410, guid: bb527820485eaeb40aec2b8b3c3db6d1, type: 3}
+  raycastDist: 300
+  overlapTestBoxSize: 5
+  spawnObjLayer:
+    serializedVersion: 2
+    m_Bits: 54
   GameSeed: Apple
   CurrentSeed: 0
 --- !u!4 &1265160386
@@ -691,7 +655,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1265160387
 AudioSource:
@@ -880,7 +844,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1302273487
 GameObject:
@@ -976,7 +940,7 @@ RectTransform:
   - {fileID: 1525106682}
   - {fileID: 1912888319}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1528,52 +1492,4 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2106838967
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2106838969}
-  - component: {fileID: 2106838968}
-  m_Layer: 0
-  m_Name: ItemSpread
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2106838968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2106838967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d9a6ba24df3964daaa74c6fab94cbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemToSpread: {fileID: 204685075}
-  itemXSpread: 420
-  itemYSpread: 0
-  itemZSpread: 420
-  numItemsToSpawn: 560
---- !u!4 &2106838969
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2106838967}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
