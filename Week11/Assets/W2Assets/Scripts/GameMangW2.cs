@@ -6,26 +6,22 @@ using TMPro;
 using UnityEngine.SceneManagement;
 
 
-public class GameMang : MonoBehaviour
+public class GameMangW2 : MonoBehaviour
 {
-
+    //This script handles all of the game logic, it switches the words, the backgrounds, the word cards and matches
     public string[] WordList;
     public TextMeshProUGUI wordDisplay;
     public GameObject[] Trig;
-
     int counter = 0;
-
     public GameObject[] backgrounds;
     public GameObject[] trigParent;
-
     public GameObject btnObj;
     public GameObject titleObj;
     public GameObject wordObj;
     
     void Start()
     {
-        wordDisplay.text = WordList[0].ToString();
-        
+        wordDisplay.text = WordList[0].ToString();      
     }
 
   
@@ -34,7 +30,6 @@ public class GameMang : MonoBehaviour
     {
         for (int i = 0; i < Trig.Length; ++i)
         {
-
             if(!Trig[8].activeSelf)
             {
                 backgrounds[0].SetActive(false);
@@ -99,7 +94,7 @@ public class GameMang : MonoBehaviour
 
     }
 
-
+    //This triggers the next word and replaces the ___! with it
     public void NextWord()
     {
         for (int i = 0; i < WordList.Length; ++i)
@@ -110,6 +105,7 @@ public class GameMang : MonoBehaviour
 
     }
 
+    //This loads the end scene
     public void NextScene()
     {
         SceneManager.LoadScene(2);

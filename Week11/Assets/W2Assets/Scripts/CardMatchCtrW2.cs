@@ -4,13 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class CardMatchCtr : MonoBehaviour
+public class CardMatchCtrW2 : MonoBehaviour
 {
-   
+   //This script combines the picture, japanese and english together and turns those off during match
     public GameObject[] CardObj;
-
     public GameObject trigObj;
-
     public AudioSource cFlipSnd;
 
     private void OnMouseOver()

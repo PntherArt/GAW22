@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class InputCtrW2 : MonoBehaviour
 {
+    //This script handles the end scene, it is basically a end menu manager
     [SerializeField] public GameObject[] CnvUI;
     [SerializeField] public Button plButton;
     [SerializeField] public Button qtButton;
