@@ -1,0 +1,134 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "PlayerCnt",
+            "id": "f9330008-2c60-4c58-b48c-246f8f6329f9",
+            "actions": [
+                {
+                    "name": "RightArm",
+                    "type": "Value",
+                    "id": "f2497c20-2345-4f63-83b9-e42f1f2536aa",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightLeg",
+                    "type": "Value",
+                    "id": "e3c32ea1-e549-49e3-b8d8-3d0fc18856c2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PickUp",
+                    "type": "Button",
+                    "id": "e581ce9e-cbef-4a08-b18b-3b54d3c9c60b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PutDown",
+                    "type": "Button",
+                    "id": "a77fe77d-0884-45b7-9d58-25086614e9f6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "82cd3a68-0a93-4f5f-8472-a0ba0b1c4787",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "3f8bb32c-38fb-4583-80e6-4bfc72aa4d79",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "19f930c5-8386-4179-b3b7-63e92667b760",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightArm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "38001d43-007b-41a9-b930-0d3a1ee1e444",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightLeg",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9fcc5315-2a0d-439c-b1d8-19e7187fb50b",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PickUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "979c51d0-4d54-4b7f-919d-d6965c696269",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PutDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "256ab0dd-ea08-43c4-b653-9fe8129f9186",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8b8a950f-dfca-4433-b567-ca0d1bf76c0d",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
