@@ -5,27 +5,28 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject canvasObj;
+    public GameObject[] canvas;
 
-    public string level;
-
-    public void Start()
-    {
-        
-        Cursor.lockState = CursorLockMode.Locked;
-    }
-
-    public void CanvasTrig()
-    {
-        canvasObj.SetActive(true);
-    }
-
-    public void SceneChange()
+    public void LoadGame(string level)
     {
         SceneManager.LoadScene(level);
     }
 
+    public void SelectLoad()
+    {
+        canvas[0].SetActive(false);
+        canvas[1].SetActive(true);
+    }
 
+    public void BackBtn()
+    {
+        canvas[1].SetActive(false);
+        canvas[0].SetActive(true);
+    }
 
-
+    public void QuitGame()
+    {
+        Application.Quit();
+        print("Quit!");
+    }
 }

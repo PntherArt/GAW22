@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/W10/MainGame.unity
+- path: Assets/Scenes/Launcher/Start.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
