@@ -5,20 +5,11 @@ using TMPro;
 
 public class TextDisplayer : MonoBehaviour
 {
-    
+    //This script handles the number display on the safe
     [SerializeField] TextMeshProUGUI displayText;
-    
- 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     public void activate(string textToDisplay)
     {
-        
         displayText.text = textToDisplay;
     }
 

@@ -5,16 +5,13 @@ using UnityEngine.UI;
 
 public class CodeDisplay : MonoBehaviour
 {
-
+    //This is the script that handles the entire safe sequence
     [SerializeField] private Sprite[] digits;
     [SerializeField] private Image[] characters;
     [SerializeField] TextDisplayer displayer;
-    
     public bool isActive = true;
     [SerializeField] AudioSource openAudio;
     [SerializeField] AudioSource errorAudio;
-    
-
     private string codeSequence; 
 
     // Start is called before the first frame update
@@ -31,6 +28,7 @@ public class CodeDisplay : MonoBehaviour
 
     }
 
+    //This giant switch case handles all of the inputs so that they can be displayed
     private void AddDigitToCodeSequence(string digitEntered)
     {
         if (codeSequence.Length < 4)
@@ -80,6 +78,7 @@ public class CodeDisplay : MonoBehaviour
             }
         }
 
+        //These are the enter and reset buttons which are separate as they have specific uses
         switch (digitEntered)
         {
             case "Star":
@@ -95,6 +94,7 @@ public class CodeDisplay : MonoBehaviour
         }
     }
 
+    //This is the giant switch case that handles displaying the actual numbers on the screen
     private void DisplayCodeSequence(int digitJustEntered)
     {
         switch (codeSequence.Length)
@@ -126,9 +126,10 @@ public class CodeDisplay : MonoBehaviour
         }
     }
 
+    //This checks if the sequence is correct, which at the moment, it is 1234 
     void CheckResults()
     {
-        if (codeSequence == "0000")
+        if (codeSequence == "1234")
         {
             displayer.activate("Unlocked!");
             isActive = false;
@@ -143,6 +144,7 @@ public class CodeDisplay : MonoBehaviour
         }
     }
 
+    //This resets the display numbers all back to 0 and the code sequence is reset
     private void ResetDisplay()
     {
         for (int i = 0; i <= characters.Length - 1; i++)
@@ -153,6 +155,7 @@ public class CodeDisplay : MonoBehaviour
         codeSequence = "";
     }
 
+    //This destroys any active buttons pressed actions
     private void OnDestroy()
     {
         CodePadPress.ButtonPressed -= AddDigitToCodeSequence;
