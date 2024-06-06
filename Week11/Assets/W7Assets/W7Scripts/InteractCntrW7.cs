@@ -5,10 +5,9 @@ using UnityEngine.InputSystem;
 
 public class InteractCntrW7 : MonoBehaviour
 {
-
+    //This script controls the inputs for the menu and locking player movement
     InputContr controls;
     InputAction menu;
-
     [SerializeField] public GameObject pauseUI;
     [SerializeField] private bool isPaused;
 
@@ -17,20 +16,11 @@ public class InteractCntrW7 : MonoBehaviour
         controls = new InputContr();
     }
 
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnEnable()
     {
         menu = controls.PlayerCnt.Interact;
         menu.Enable();
-
         menu.performed += Pause;
-
     }
 
     private void OnDisable()
@@ -41,7 +31,6 @@ public class InteractCntrW7 : MonoBehaviour
     void Pause(InputAction.CallbackContext context)
     {
         isPaused = !isPaused;
-
         if (isPaused)
         {
             ActivateMenu();
@@ -52,16 +41,14 @@ public class InteractCntrW7 : MonoBehaviour
     }
 
     public void ActivateMenu()
-    {
-        
+    {       
         AudioListener.pause = true;
         pauseUI.SetActive(true);
     }
 
 
     public void deactivateMenu()
-    {
-        
+    {     
         AudioListener.pause = false;
         pauseUI.SetActive(false);
         isPaused = false;
